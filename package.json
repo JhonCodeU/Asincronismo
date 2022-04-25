@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "trabajar con asincronisomo con javascript",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "callback": "node src/callback/index.js"
-    },
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "dev": "nodemon src/callback/index.js"
+  },
   "keywords": [
     "callbacks",
     "promise",
     "async"
   ],
   "author": "Jhon Arcila Castano",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
