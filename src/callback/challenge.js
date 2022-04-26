@@ -1,6 +1,5 @@
 import { XMLHttpRequest } from "xmlhttprequest";
-
-const API = "https://rickandmortyapi.com/api/character/";
+import { API } from "../utils/fetchData";
 
 function fetchData(url_api, callback) {
     let xhttp = new XMLHttpRequest();
